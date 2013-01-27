@@ -1,0 +1,78 @@
+SHELL=/bin/sh
+
+TOP_SRCDIR= ..
+SRCDIR    = .
+INCLUDES  = -I${TOP_SRCDIR}/include
+MAKEDEPEND= mkdep
+RM	  = rm -f
+CFLAGS	  = ${INCLUDES} -Wall ${EXTRA}
+
+ifeq ($(OSTYPE),darwin)
+
+CFLAGS  = ${INCLUDES} -Wall ${EXTRA} -arch i386
+
+endif
+
+MODULE    = xcall
+PROG	  = mumps
+
+SRCS = xcall.c
+
+OBJS = xcall.o
+
+all:	${OBJS}
+
+depend:
+	${MAKEDEPEND} ${INCLUDES} ${SRCS}
+
+clean:
+	${RM} ${OBJS} Makefile.bak .depend
+
+
+# DO NOT DELETE
+
+xcall.o: /usr/include/stdio.h /usr/include/features.h
+xcall.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+xcall.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xcall.o: /usr/include/gnu/stubs-32.h /usr/include/stddef.h
+xcall.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+xcall.o: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h
+xcall.o: /usr/include/stdarg.h /usr/include/bits/stdio_lim.h
+xcall.o: /usr/include/bits/sys_errlist.h /usr/include/stdlib.h
+xcall.o: /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h
+xcall.o: /usr/include/bits/endian.h /usr/include/bits/byteswap.h
+xcall.o: /usr/include/sys/select.h /usr/include/bits/select.h
+xcall.o: /usr/include/bits/sigset.h /usr/include/bits/time.h
+xcall.o: /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h
+xcall.o: /usr/include/alloca.h /usr/include/sys/stat.h
+xcall.o: /usr/include/bits/stat.h /usr/include/string.h
+xcall.o: /usr/include/xlocale.h /usr/include/netdb.h
+xcall.o: /usr/include/netinet/in.h /usr/include/stdint.h
+xcall.o: /usr/include/bits/wchar.h /usr/include/sys/socket.h
+xcall.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+xcall.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+xcall.o: /usr/include/asm/socket.h /usr/include/asm-generic/socket.h
+xcall.o: /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h
+xcall.o: /usr/include/bits/in.h /usr/include/rpc/netdb.h
+xcall.o: /usr/include/bits/netdb.h /usr/include/arpa/inet.h
+xcall.o: /usr/include/signal.h /usr/include/bits/signum.h
+xcall.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+xcall.o: /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h
+xcall.o: /usr/include/bits/sigthread.h /usr/include/ctype.h
+xcall.o: /usr/include/errno.h /usr/include/bits/errno.h
+xcall.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
+xcall.o: /usr/include/asm-generic/errno.h
+xcall.o: /usr/include/asm-generic/errno-base.h /usr/include/syslog.h
+xcall.o: /usr/include/sys/syslog.h /usr/include/bits/syslog-path.h
+xcall.o: /usr/include/termios.h /usr/include/bits/termios.h
+xcall.o: /usr/include/sys/ttydefaults.h /usr/include/dirent.h
+xcall.o: /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h
+xcall.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xcall.o: /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h
+xcall.o: /usr/include/bits/ipc.h /usr/include/sys/sem.h
+xcall.o: /usr/include/bits/sem.h /usr/include/sys/wait.h
+xcall.o: /usr/include/sys/resource.h /usr/include/bits/resource.h
+xcall.o: /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h
+xcall.o: ../include/mumps.h ../include/error.h ../include/proto.h
+xcall.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
+xcall.o: /usr/include/bits/confname.h /usr/include/getopt.h

@@ -1,0 +1,104 @@
+﻿                        MUMPS Version 1.60
+
+  This version of mumps runs on all FreeBSD Versions 3 through 9, many linux
+  versions, OSX 10.4 through 10.8 in 32 bit mode and Solaris.  This version
+  is also available for windows (tested on XP and Windows 7).
+  
+  NOTE: The compiler version has changed with version 1.59 of MUMPS and all
+               routines will have to be recompiled. To do this, use:
+	     M> M ^$R(“%RECOMP”)=^$R(“%RECOMP”)
+	     then D ^%RECOMP in each UCI.
+
+  To use, download mumps-1.60.tar.gz from 	
+		https://sourceforge.net/projects/mumps/files/
+ and un-tar.
+
+  To get your executable, copy mumps.osvariant to mumps except for
+  windows where mumps.exe is used as distributed.
+
+  For windows, install the Cygwin environment at http://cygwin.com/setup.exe
+  then setup the Cygserver using /usr/bin/cygserver-config.
+
+  To use, first create a database, eg:
+	./mumps -v TEST -b 16 -s 1000 testdb
+
+  then, start the environment, eg:
+	./mumps -j2 testdb
+
+  then, load the unitities, eg:
+	./mumps -x 'O 1:("utils":"R") U 1 R X X X' testdb
+
+  The environment is then started using:
+	./mumps testdb
+  or
+	./mumps -x "D ^%M" testdb
+
+  Remember to shut it down when you are done to free the shared memory.
+  Do either M> K ^$J or MCL> D ^SSD
+
+		VISTA FILEMAN CODE
+
+  Download mumps-vista.tar.gz from:
+  https://sourceforge.net/projects/mumps/files/
+
+  Create group vista and ensure you are a member of this.
+
+  Prompt> sudo tar -C / -xzvf mumps-vista.tar.gz
+  Password: ********
+  x usr/vista/
+  x usr/vista/runvista
+  x usr/vista/startvista
+  x usr/vista/vistadb
+  Prompt> sudo chgrp -R vista /usr/vista
+  Prompt> sudo chmod -R g+w /usr/vista
+
+  Fetch the appropriate mumps executable from the above sourceforge location.
+
+  // To startup MUMPS with VISTA
+
+  Prompt> sudo /usr/vista/startvista
+  Password: ********
+  kern.sysv.shmmax: 536870912 -> 536870912
+  kern.sysv.shmall: 131072 -> 131072
+  Creating share for 16 jobs with 2mb routine space,
+  10mb (320) global buffers, 128kb label/map space
+  and 16kb for locktab.
+
+  // and to run that environment
+
+  Prompt> /usr/vista/runvista
+
+  // This runs in the MUMPS standard MCL environment
+  // to shutdown using MCL CD MGR then D ^SSD
+
+
+       enjoy
+
+          Copyright (c) 1999 - 2012
+          Raymond Douglas Newman.  All rights reserved.
+
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions
+     are met:
+
+     1. Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+     3. Neither the name of Raymond Douglas Newman nor the names of the
+        contributors may be used to endorse or promote products derived from
+        this software without specific prior written permission.
+
+     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER AND CONTRIBUTORS "AS IS"
+     AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+     LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+     CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+     SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+     INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+     CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     THE POSSIBILITY OF SUCH DAMAGE.
+
