@@ -962,7 +962,7 @@ short SS_Order(mvar *var, u_char *buf, int dir) // get next subscript
 	i++;					// convert back to job#
       }
       else					// forward
-      { for (i = i; i < systab->maxjob; i++)	// scan the list
+      { for (; i < systab->maxjob; i++)	// scan the list
 	{
 	  if (systab->jobtab[i].pid != 0)	// found one
 	  {

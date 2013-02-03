@@ -149,7 +149,7 @@ short ncopy(u_char **src, u_char *dst)          // copy as number
   }
   if (expsgn > 0)				// if positive
   { if (dp)					// if found a dot
-    { for (k = k; k < i; k++)			// scan to eos
+    { for (; k < i; k++)			// scan to eos
       { dst[k] = dst[k + 1];			// copy one char
         dst[k + 1] = '.';			// replace the dot
         exp--;					// count one
