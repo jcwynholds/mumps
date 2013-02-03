@@ -53,6 +53,8 @@
 #include "proto.h"                              // standard prototypes
 #include "error.h"				// standard errors
 
+
+
 // SSVNs use the same structures as ST_ and DB_ functions
 // Note valid SSVNs are:	$GLOBAL
 //				$JOB

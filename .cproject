@@ -39,6 +39,116 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="0.423761126.2101821534" name="parse.c" rcbsApplicability="disable" resourcePath="compile/parse.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.364054746">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.364054746" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1480762698" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1312488294" name="localvar.c" rcbsApplicability="disable" resourcePath="compile/localvar.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2013824539">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2013824539" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.464605696" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1293829498" name="routine.c" rcbsApplicability="disable" resourcePath="compile/routine.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1122193203">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1122193203" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1055767748" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1822699140" name="eval.c" rcbsApplicability="disable" resourcePath="compile/eval.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.741874521">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.741874521" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1948469570" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1111088008" name="dollar.c" rcbsApplicability="disable" resourcePath="compile/dollar.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2115138771">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2115138771" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.444506406" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.226444294" name="init_create.c" rcbsApplicability="disable" resourcePath="init/init_create.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1157946593">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1157946593" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.233472464" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.500641323" name="init_start.c" rcbsApplicability="disable" resourcePath="init/init_start.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1157621207">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1157621207" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1497510799" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1196313053" name="mumps.c" rcbsApplicability="disable" resourcePath="init/mumps.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.95584151">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.95584151" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.764477702" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.220178634" name="init_run.c" rcbsApplicability="disable" resourcePath="init/init_run.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.841073696">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.841073696" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1595537586" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1365418681" name="xcall.c" rcbsApplicability="disable" resourcePath="xcall/xcall.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2039255324">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2039255324" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1439277498" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.844155336" name="db_main.c" rcbsApplicability="disable" resourcePath="database/db_main.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1500566002">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1500566002" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.217453609" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.26820383" name="db_rekey.c" rcbsApplicability="disable" resourcePath="database/db_rekey.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.902665873">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.902665873" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.585452249" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.546318954" name="db_get.c" rcbsApplicability="disable" resourcePath="database/db_get.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.620788905">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.620788905" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.570535197" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.879063463" name="db_buffer.c" rcbsApplicability="disable" resourcePath="database/db_buffer.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2088937383">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2088937383" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1460070995" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.50203303" name="db_daemon.c" rcbsApplicability="disable" resourcePath="database/db_daemon.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.923822415">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.923822415" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1033779884" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1157229157" name="db_util.c" rcbsApplicability="disable" resourcePath="database/db_util.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2090060673">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2090060673" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1777173858" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1321406818" name="db_locate.c" rcbsApplicability="disable" resourcePath="database/db_locate.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1149564692">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1149564692" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.931233849" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1710403040" name="db_uci.c" rcbsApplicability="disable" resourcePath="database/db_uci.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.956526659">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.956526659" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1290530538" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.362885059" name="db_set.c" rcbsApplicability="disable" resourcePath="database/db_set.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2120565781">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2120565781" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.182551111" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1499381908" name="db_view.c" rcbsApplicability="disable" resourcePath="database/db_view.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.989694086">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.989694086" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.863778916" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.164661463" name="db_ic.c" rcbsApplicability="disable" resourcePath="database/db_ic.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.120412423">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.120412423" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1077374836" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.423761126.1314291848" name="db_kill.c" rcbsApplicability="disable" resourcePath="database/db_kill.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.186567538">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.186567538" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.614249170" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
