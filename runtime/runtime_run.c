@@ -3046,6 +3046,7 @@ short run(int savasp, int savssp)		// run compiled code
 	astk[asp++] = (u_char *) cptr;		// stack it
 	break;
       case XCPAS:				// Xcall $&PASCHK()
+    	  /*  // NOOP
 	ptr2 = (cstring *) astk[--asp];		// get arg 2
 	ptr1 = (cstring *) astk[--asp];		// get arg 1
 	cptr = (cstring *) &sstk[ssp];		// where we will put it
@@ -3054,6 +3055,7 @@ short run(int savasp, int savssp)		// run compiled code
 	cptr->len = s;				// save the length
 	ssp = ssp + sizeof(short) + cptr->len + 1; // point past it
 	astk[asp++] = (u_char *) cptr;		// stack it
+	      */
 	break;
       case XCV:					// Xcall $&V()
 	ptr2 = (cstring *) astk[--asp];		// get arg 2
