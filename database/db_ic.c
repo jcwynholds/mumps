@@ -548,7 +548,7 @@ void ic_map(int flag)					// check the map
 							// base block number
     while (SemOp(SEM_GLOBAL, lock));			// grab a lock
 
-    for (off = off; off < 8; off++)			// scan the byte
+    for (; off < 8; off++)			// scan the byte
     { block = base + off;				// the block#
       status = -1;					// not yet known
       if (block > systab->vol[volnum - 1]->vollab->max_block)
