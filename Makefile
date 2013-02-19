@@ -9,8 +9,10 @@ SRCDIR    = .
 INCLUDES  = -I${TOP_SRCDIR}/include
 PREFIX?=	/usr/local
 CC	=	cc
+CPP =   g++
 
-CFLAGS    = ${INCLUDES} -L/usr/lib/ -lcrypt -Wall -lm
+CFLAGS    = ${INCLUDES} -L/usr/lib/ -lcrypt -Wall -lm -lstdc++
+CPPFLAGS    = ${INCLUDES} -L/usr/lib/ -lcrypt -Wall -lm -std=c++0x -D__GXX_EXPERIMENTAL_CXX0X__
 
 ifeq ($(findstring solaris,$(OSTYPE)),solaris)
 CFLAGS    = ${INCLUDES} -L/usr/lib/ -lcrypt -lnsl -lsocket -Wall -lm
@@ -29,6 +31,8 @@ RM=rm -f
 
 PROG      = mumps
 PROGMAIN  = init/mumps.c
+
+CPPOBJS = database/db_btree.o
 
 OBJS	= 	compile/dollar.o \
 		compile/eval.o \
@@ -83,7 +87,8 @@ all:
 		echo Making all in $$i ; \
 		(cd $$i; ${MAKE} ${MAKEALL} all) \
 	done
-	${CC} ${CFLAGS} -O -o ${PROG} ${PROGMAIN} ${OBJS}
+    # dark gcc voodoo (-lstdc++ as final line for linker)
+	${CC} -O -o ${PROG} ${PROGMAIN} ${CPPOBJS} ${OBJS} ${CFLAGS} 
 
 test:
 	@for i in ${SUBDIRS}; do \

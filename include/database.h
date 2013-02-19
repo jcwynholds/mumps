@@ -68,6 +68,9 @@
 #define DOING_DISMOUNT	4				// dismounting
 
 // **** Structures ***********************************************************
+// #include "btree-extern.h"
+// <key, data_reference>
+// BTreePool KeyPool;
 
 typedef struct __attribute__ ((__packed__)) DB_BLOCK	// database block layout
 { u_char type;						// block type

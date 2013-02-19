@@ -26,7 +26,18 @@
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.279641271" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.249394450" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6/tr1"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6.3"/>
 									<listOptionValue builtIn="false" value="/usr/include/"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6/x86_64-linux-gnu"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6.3/x86_64-linux-gnu"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1179480868" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/btree-extern.h}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.28848510" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1304891780" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
@@ -35,7 +46,7 @@
 									<listOptionValue builtIn="false" value="/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include}&quot;"/>
 								</option>
-								<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1595308960" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+								<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1595308960" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 								</option>
@@ -45,7 +56,7 @@
 					</folderInfo>
 					<fileInfo id="0.423761126.42845225" name="symbol_util.c" rcbsApplicability="disable" resourcePath="symbol/symbol_util.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.37027775">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.37027775" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1485739433" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1485739433" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -54,7 +65,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.80370964" name="symbol_new.c" rcbsApplicability="disable" resourcePath="symbol/symbol_new.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1896816062">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1896816062" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1060029327" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1060029327" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -63,7 +74,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.2101821534" name="parse.c" rcbsApplicability="disable" resourcePath="compile/parse.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.364054746">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.364054746" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.706520079" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.706520079" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -72,7 +83,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1312488294" name="localvar.c" rcbsApplicability="disable" resourcePath="compile/localvar.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2013824539">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2013824539" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1424830182" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1424830182" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -81,7 +92,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1293829498" name="routine.c" rcbsApplicability="disable" resourcePath="compile/routine.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1122193203">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1122193203" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.752729377" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.752729377" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -90,7 +101,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1822699140" name="eval.c" rcbsApplicability="disable" resourcePath="compile/eval.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.741874521">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.741874521" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.664153402" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.664153402" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -99,7 +110,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1111088008" name="dollar.c" rcbsApplicability="disable" resourcePath="compile/dollar.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2115138771">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2115138771" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.11959803" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.11959803" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -108,7 +119,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.226444294" name="init_create.c" rcbsApplicability="disable" resourcePath="init/init_create.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1157946593">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1157946593" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.873645267" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.873645267" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -117,7 +128,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.500641323" name="init_start.c" rcbsApplicability="disable" resourcePath="init/init_start.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1157621207">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1157621207" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1847725198" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1847725198" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -126,7 +137,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1196313053" name="mumps.c" rcbsApplicability="disable" resourcePath="init/mumps.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.95584151">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.95584151" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.151251171" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.151251171" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -135,7 +146,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.220178634" name="init_run.c" rcbsApplicability="disable" resourcePath="init/init_run.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.841073696">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.841073696" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.389712001" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.389712001" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -144,7 +155,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1389210840" name="runtime_buildmvar.c" rcbsApplicability="disable" resourcePath="runtime/runtime_buildmvar.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.834624779">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.834624779" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.398311910" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.398311910" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -153,7 +164,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.950237751" name="runtime_math.c" rcbsApplicability="disable" resourcePath="runtime/runtime_math.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.714583625">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.714583625" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.625253862" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.625253862" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -162,7 +173,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.387213150" name="runtime_pattern.c" rcbsApplicability="disable" resourcePath="runtime/runtime_pattern.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.430662018">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.430662018" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.567000061" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.567000061" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -171,7 +182,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.2080073896" name="runtime_ssvn.c" rcbsApplicability="disable" resourcePath="runtime/runtime_ssvn.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.330029071">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.330029071" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.810296350" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.810296350" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -180,7 +191,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.943353105" name="runtime_attn.c" rcbsApplicability="disable" resourcePath="runtime/runtime_attn.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1776282804">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1776282804" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.387705820" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.387705820" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -189,7 +200,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1559937970" name="runtime_util.c" rcbsApplicability="disable" resourcePath="runtime/runtime_util.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1476857330">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1476857330" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.936791083" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.936791083" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -198,7 +209,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.475520530" name="runtime_debug.c" rcbsApplicability="disable" resourcePath="runtime/runtime_debug.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2016587495">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2016587495" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1930984565" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1930984565" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -207,7 +218,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.2103002727" name="runtime_vars.c" rcbsApplicability="disable" resourcePath="runtime/runtime_vars.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.937844759">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.937844759" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.464202102" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.464202102" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -216,7 +227,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1075275607" name="runtime_func.c" rcbsApplicability="disable" resourcePath="runtime/runtime_func.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.198261613">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.198261613" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.223176076" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.223176076" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -225,7 +236,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1263340276" name="runtime_run.c" rcbsApplicability="disable" resourcePath="runtime/runtime_run.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.545848633">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.545848633" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.874880176" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.874880176" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -234,7 +245,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.321815076" name="SQ_Pipe.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Pipe.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1009697038">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1009697038" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1864058037" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1864058037" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -243,7 +254,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.902634324" name="SQ_Seqio.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Seqio.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1432535175">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1432535175" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1962610680" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1962610680" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -252,7 +263,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1221923707" name="SQ_Tcpip.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Tcpip.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.213618208">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.213618208" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1747275050" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1747275050" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -261,7 +272,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1318161771" name="SQ_File.c" rcbsApplicability="disable" resourcePath="seqio/SQ_File.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2046429065">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2046429065" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.91193333" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.91193333" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -270,7 +281,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.446296284" name="SQ_Socket.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Socket.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2117289818">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2117289818" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1436201563" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1436201563" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -279,7 +290,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1188993424" name="SQ_Util.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Util.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.316826563">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.316826563" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1819840196" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1819840196" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -288,7 +299,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1084680082" name="SQ_Device.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Device.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1704877429">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1704877429" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2141248480" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2141248480" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -297,7 +308,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.2031533393" name="SQ_Signal.c" rcbsApplicability="disable" resourcePath="seqio/SQ_Signal.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1312732980">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1312732980" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1579178279" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1579178279" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -306,7 +317,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1365418681" name="xcall.c" rcbsApplicability="disable" resourcePath="xcall/xcall.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2039255324">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2039255324" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1246929080" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1246929080" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -315,7 +326,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.844155336" name="db_main.c" rcbsApplicability="disable" resourcePath="database/db_main.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1500566002">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1500566002" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.226707465" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.226707465" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -324,7 +335,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.26820383" name="db_rekey.c" rcbsApplicability="disable" resourcePath="database/db_rekey.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.902665873">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.902665873" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.165161844" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.165161844" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -333,7 +344,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.546318954" name="db_get.c" rcbsApplicability="disable" resourcePath="database/db_get.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.620788905">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.620788905" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2048452148" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2048452148" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -342,7 +353,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.879063463" name="db_buffer.c" rcbsApplicability="disable" resourcePath="database/db_buffer.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2088937383">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2088937383" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2004710049" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2004710049" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -351,7 +362,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.50203303" name="db_daemon.c" rcbsApplicability="disable" resourcePath="database/db_daemon.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.923822415">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.923822415" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.414751041" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.414751041" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -360,7 +371,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1157229157" name="db_util.c" rcbsApplicability="disable" resourcePath="database/db_util.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2090060673">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2090060673" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2100123697" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2100123697" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -369,7 +380,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1321406818" name="db_locate.c" rcbsApplicability="disable" resourcePath="database/db_locate.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1149564692">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1149564692" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.957474805" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.957474805" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -378,7 +389,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1710403040" name="db_uci.c" rcbsApplicability="disable" resourcePath="database/db_uci.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.956526659">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.956526659" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.118897684" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.118897684" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -387,7 +398,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.362885059" name="db_set.c" rcbsApplicability="disable" resourcePath="database/db_set.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2120565781">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2120565781" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1090245445" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1090245445" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -396,7 +407,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1499381908" name="db_view.c" rcbsApplicability="disable" resourcePath="database/db_view.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.989694086">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.989694086" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.707584373" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.707584373" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -405,7 +416,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.164661463" name="db_ic.c" rcbsApplicability="disable" resourcePath="database/db_ic.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.120412423">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.120412423" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1914428758" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1914428758" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -414,7 +425,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1314291848" name="db_kill.c" rcbsApplicability="disable" resourcePath="database/db_kill.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.186567538">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.186567538" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1934349794" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1934349794" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -423,7 +434,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1637525833" name="util_routine.c" rcbsApplicability="disable" resourcePath="util/util_routine.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2064206919">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2064206919" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.929775511" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.929775511" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -432,7 +443,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1256251397" name="util_memory.c" rcbsApplicability="disable" resourcePath="util/util_memory.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.342234328">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.342234328" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.775875401" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.775875401" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -441,7 +452,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1530946819" name="util_lock.c" rcbsApplicability="disable" resourcePath="util/util_lock.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1033926696">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1033926696" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1208560298" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.1208560298" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -450,7 +461,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1369667244" name="util_key.c" rcbsApplicability="disable" resourcePath="util/util_key.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.2087405123">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.2087405123" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.909950570" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.909950570" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -459,7 +470,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.1675829975" name="util_share.c" rcbsApplicability="disable" resourcePath="util/util_share.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.1275934447">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.1275934447" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.452891968" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.452891968" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>
@@ -468,7 +479,7 @@
 					</fileInfo>
 					<fileInfo id="0.423761126.2098624147" name="util_strerror.c" rcbsApplicability="disable" resourcePath="util/util_strerror.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.1298014979.89295313">
 						<tool id="org.eclipse.cdt.build.core.settings.holder.1298014979.89295313" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.770205691">
-							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2071432565" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
+							<option id="org.eclipse.cdt.build.core.settings.holder.includefiles.2071432565" name="Include Files" superClass="org.eclipse.cdt.build.core.settings.holder.includefiles" valueType="includeFiles">
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/error.h}&quot;"/>
 								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/mumps/include/symbol.h}&quot;"/>
 							</option>

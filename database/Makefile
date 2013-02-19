@@ -6,6 +6,7 @@ INCLUDES  = -I${TOP_SRCDIR}/include
 MAKEDEPEND= mkdep
 RM	  = rm -f
 CFLAGS	  = ${INCLUDES} -Wall ${EXTRA}
+CPPFLAGS  = ${INCLUDES} -Wall ${EXTRA} -std=c++0x -D__GXX_EXPERIMENTAL_CXX0X__
 
 ifeq ($(OSTYPE),darwin)
 
@@ -27,10 +28,12 @@ SRCS = 	db_buffer.c \
 	db_set.c \
 	db_uci.c \
 	db_util.c \
-	db_view.c
+	db_view.c \
+    db_btree.cpp
 
 OBJS = 	db_buffer.o \
 	db_daemon.o \
+	db_btree.o \
 	db_get.o \
 	db_ic.o \
 	db_kill.o \
@@ -52,7 +55,7 @@ clean:
 
 
 # DO NOT DELETE
-
+db_btree.o: ../include/btree-extern.h
 
 db_buffer.o: ../include/mumps.h ../include/database.h ../include/proto.h
 db_buffer.o: ../include/error.h
