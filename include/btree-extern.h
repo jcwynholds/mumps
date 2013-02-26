@@ -1,4 +1,5 @@
 #include <tr1/memory>
+#include <tuple>
 #include "btree_map.h"
 
 /*

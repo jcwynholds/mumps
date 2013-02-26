@@ -1,11 +1,12 @@
 #include "btree_map.h"
 #include "btree-extern.h"
+#define BLOCK_SIZE 32768
 
 /*
  * Storage for btree-mumps
  * Local btree has key nodes and shared_ptr values
  * key nodes are global m reference (thread uci ns)
- * shared_ptr refer to data data location
+ * shared_ptr refer to datablock
  * for data blocks on disk, the shared_ptr refers to disk block obj
  * for data in memory, shared_ptr refers to memory block loc (block+offset)
  * btree struct is <KeyPointer, DataReference>
@@ -19,26 +20,81 @@
  * data reference pool
  *
  */
-using namespace mumps;
 
-typedef btree_map<int, int> BTreePool;
+namespace mumps {
+    using namespace std;
+    using namespace btree;
+    
+    typedef struct BT_BLOCK BT_BLOCK;
+    struct BT_BLOCK {
+        uint64_t blockId;
+        char data[BLOCK_SIZE];
+    } BT_block;
+    typedef struct BT_KEY BT_KEY;
+    struct BT_KEY {
+        uint64_t keyId;
+        const char * keyStr;
+        uint64_t blockId; // extent address
+        short offset;     // chars offset from start of data
+    } BT_key;
 
-BTreePool* buildMap() {
-    BTreePool *obj_map = new BTreePool;
-    return obj_map;   
-}
+    typedef btree_map<uint64_t, BT_KEY*> RecordPool;
+    typedef btree_map<uint64_t, BT_BLOCK*> BlockPool;
 
-extern "C" void* externMap(void) {
-    return mumps::buildMap();
-}
+    RecordPool* buildRecMap() {
+        RecordPool *obj_map = new RecordPool;
+        return obj_map;   
+    }
+    BlockPool* buildBlockMap() {
+        BlockPool *obj_map = new BlockPool;
+        return obj_map;   
+    }
+    BT_BLOCK* getBlock(BlockPool* pool, uint64_t blId) {
+        BlockPool::const_iterator lookup = pool->find(blId);
+        // if the lookup returns the last in the pool, the lookup failed
+        // kinda hacky
+        // if (lookup != pool.end())
+        std::pair<uint64_t, BT_BLOCK*> rec = *lookup;
+        return rec.second;
+    }
+    BT_KEY* getKey(RecordPool* pool, uint64_t keyId) {
+        RecordPool::const_iterator lookup = pool->find(keyId);
+        std::pair<uint64_t, BT_KEY*> rec = *lookup;
+        return rec.second;
+    }
+
+    extern "C" void* externRecMap(void) {
+        return buildRecMap();
+    }
+    extern "C" void* externBlockMap(void) {
+        return buildBlockMap();
+    }
+    extern "C" void* externGetBlock(BlockPool* pool, uint64_t blId) {
+        return getBlock(pool, blId);
+    }
+    extern "C" void* externGetKey(RecordPool* pool, uint64_t keyId) {
+        return getKey(pool, keyId);
+    }
+    extern "C" void setKey(RecordPool* pool, uint64_t keyId, BT_KEY keyOb) {
+        RecordPool::const_iterator lookup = pool->find(keyId);
+        std::pair<uint64_t, BT_KEY*> rec = *lookup;
+        pool->insert(std::make_pair(keyId, &keyOb));
+    }
+    extern "C" void deleteKey(RecordPool* pool, uint64_t keyId) {
+        pool->erase(keyId);
+    }
+    extern "C" void* newBlock(void) {
+        return new BT_BLOCK;
+    }
 
 /*
-struct BTreePool * getBTreePool(void) {
-	static BTreePool btpoolinst;
-	return &btpoolinst;
-}DB_BTree;
+getKey nextKey setKey updateKey deleteKey
+getData setData updateData deleteData
+getBlock packKeys mNewData
 */
 
+
+}
 
 /*
 MyMap* BuildMap() {

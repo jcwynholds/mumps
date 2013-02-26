@@ -6,7 +6,7 @@ INCLUDES  = -I${TOP_SRCDIR}/include
 MAKEDEPEND= mkdep
 RM	  = rm -f
 CFLAGS	  = ${INCLUDES} -Wall ${EXTRA}
-CPPFLAGS  = ${INCLUDES} -Wall ${EXTRA} -std=c++0x -D__GXX_EXPERIMENTAL_CXX0X__
+CPPFLAGS  = ${INCLUDES} ${EXTRA} -std=c++0x -D__GXX_EXPERIMENTAL_CXX0X__
 
 ifeq ($(OSTYPE),darwin)
 
