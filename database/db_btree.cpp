@@ -76,18 +76,47 @@ namespace mumps {
         return getKey(pool, keyId);
     }
     extern "C" void setKey(RecordPool* pool, uint64_t keyId, BT_KEY keyOb) {
-        RecordPool::const_iterator lookup = pool->find(keyId);
-        std::pair<uint64_t, BT_KEY*> rec = *lookup;
+        pool->erase(keyId);
+        //RecordPool::const_iterator lookup = pool->find(keyId);
+        //std::pair<uint64_t, BT_KEY*> rec = *lookup;
         pool->insert(std::make_pair(keyId, &keyOb));
+    }
+    extern "C" void setBlock(BlockPool* pool, uint64_t blId, BT_BLOCK blOb) {
+        pool->erase(blId);
+        //BlockPool::const_iterator lookup = pool->find(blId);
+        //std::pair<uint64_t, BT_BLOCK*> rec = *lookup;
+        pool->insert(std::make_pair(blId, &blOb));
     }
     extern "C" void deleteKey(RecordPool* pool, uint64_t keyId) {
         pool->erase(keyId);
     }
+    extern "C" void deleteBlock(BlockPool* pool, uint64_t blId) {
+        pool->erase(blId);
+    }
     extern "C" void* newBlock(void) {
         return new BT_BLOCK;
     }
+    extern "C" char* getData(RecordPool* pool, BlockPool* bpool, uint64_t keyId) {
+        RecordPool::const_iterator lookup = pool->find(keyId);
+        std::pair<uint64_t, BT_KEY*> rec = *lookup;
+        BT_KEY key = *rec.second;
+        uint64_t blId = key.blockId;
+        BlockPool::const_iterator blookup = bpool->find(blId);
+        std::pair<uint64_t, BT_BLOCK*> bl = *blookup;
+        BT_BLOCK d_bl = *bl.second;
+        char* getData = d_bl.data + key.offset;
+        return getData;
+    }
+
 
 /*
+    extern "C" char* getData(RecordPool* pool, BlockPool* bpool, uint64_t keyId) {
+        RecordPool::const_iterator lookup = pool->find(keyId);
+        uint64_t blId = *lookup.second.blockId;
+        BlockPool::const_iterator blookup = pool->find(blId);
+        return *blookup.second.data + *lookup.second.offset
+
+
 getKey nextKey setKey updateKey deleteKey
 getData setData updateData deleteData
 getBlock packKeys mNewData
